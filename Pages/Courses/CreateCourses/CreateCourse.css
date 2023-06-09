@@ -1,0 +1,107 @@
+.form-container {
+    width: 45%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 2%;
+    border-radius: 10px;
+    border: 4px dashed #C5DE96;
+  }
+  
+  .form-heading {
+    text-align: center;
+    color: grey;
+    margin-bottom: 30px;
+  }
+  
+  .form-field {
+    margin-bottom: 20px;
+  }
+  
+  .form-field label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .form-field input[type="text"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 12px;
+    border: 1px dashed #C5DE96;
+    font-size: 16px;
+  }
+
+  .custom-select {
+    
+    appearance: none;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 14px;
+  width: 100px;
+  cursor: pointer;
+  }
+
+  .custom-select:focus {
+    outline: none;
+    border-color: #5b9dd9;
+    box-shadow: 0 0 5px rgba(91, 157, 217, 0.5);
+  }
+
+  /* Dodatni stilovi za strelicu */
+.custom-select:after {
+  content: "\25BC";
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+  
+  .form-submit {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  
+  .form-submit:hover {
+    background-color: #45a049;
+  }
+
+
+  .marginica{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-image: url('../../../../WebProgramiranje/Assets/pozadina.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+
+
+  .countDesign{
+    font-weight: bold;
+    color: darkcyan;
+  }
+
+  .countText{
+    color:black;
+    font-weight: 300;
+  }
+
+
+  .redText{
+    color: black;
+    font-weight: bold;
+  }
